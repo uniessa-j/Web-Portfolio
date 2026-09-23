@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniessa S. Juntilla | Student Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8f5f0;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #b05e1c, #d4823e);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+        .degree {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        .contact-links a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.05rem;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+        }
+        h2 {
+            color: #b05e1c;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ffcd94;
+            padding-bottom: 5px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+            list-style: none;
+        }
+        .skills-list li {
+            background: #ffecd1;
+            color: #b05e1c;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+        .project-card {
+            background: #f9f9f9;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .project-img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 8px;
+            margin: 15px 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .get-in-touch {
+            background: white;
+            padding: 40px 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+        }
+        .get-in-touch h2 {
+            color: #b05e1c;
+            margin-bottom: 20px;
+            border-bottom: none;
+            font-size: 1.8rem;
+        }
+        .get-in-touch p {
+            font-size: 1.15rem;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        .get-in-touch a {
+            display: block;
+            color: #b05e1c;
+            margin: 8px 0;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        .get-in-touch a:hover {
+            text-decoration: underline;
+            color: #924c15;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="image.jpg" alt="Uniessa S. Juntilla" class="profile-img">
+        <h1>Uniessa S. Juntilla</h1>
+        <p class="degree">Bachelor of Science in Information Technology<br>Eastern Samar State University</p>
+        <div class="contact-links">
+            <a href="mailto:uniessaj@gmail.com">📧 uniessaj@gmail.com</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I’m Uniessa, a passionate Student Developer currently pursuing a Bachelor of Science in Information Technology at Eastern Samar State University. I love building clean, responsive websites and useful applications. I’m always learning and excited to grow as a developer!
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Eastern Samar State University</strong><br>Bachelor of Science in Information Technology<br><em>Currently Studying</em></p>
+        <br>
+        <p><strong>Eastern Samar National Comprehensive High School</strong><br>Senior High School Graduate<br><em>Graduated: 2024–2025</em></p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>Student Web Developer</strong></p>
+        <p>Personal Projects & Academic Coursework</p>
+        <p>Designed and built simple websites and small web apps as part of school projects and self‑learning. Gained hands‑on practice with HTML, CSS, and basic JavaScript.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>🩺 Clinic Appointment System</h3>
+            <img src="clinic-system.jpg" alt="Clinic Appointment System Screenshot" class="project-img">
+            <p><strong>Description:</strong> A desktop application that helps clinics manage patient appointments efficiently — add, edit, delete, search, and view all records easily.</p>
+            <p><strong>Technologies:</strong> Java, MySQL, GUI Design</p>
+        </div>
+        <div class="project-card">
+            <h3>🌐 Personal Portfolio Website</h3>
+            <p><strong>Description:</strong> This professional portfolio website — built with HTML & CSS to showcase my skills, education, and projects beautifully.</p>
+            <p><strong>Technologies:</strong> HTML5, CSS3, Responsive Web Design</p>
+        </div>
+    </section>
+
+    <section class="get-in-touch">
+        <h2>Get in touch</h2>
+        <p>Open to summer 2027 internships in front‑end development. Reach out any time!</p>
+        <a href="mailto:uniessaj@gmail.com">uniessaj@gmail.com</a>
+        <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/in/yourprofile</a>
+    </section>
+</div>
+
+<footer>
+    &copy; 2026 Uniessa S. Juntilla — Student Developer
+</footer>
+
+</body>
+</html>
